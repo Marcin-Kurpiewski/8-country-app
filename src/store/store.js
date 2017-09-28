@@ -10,6 +10,6 @@ const store = createStore(
 
 store.subscribe(() => console.log(store.getState())); // nasłuchiwanie na zmiany
 
-store.dispatch(getCountries('pierwsza-zmiana')); // wywołanie dispatch nie wprowadza zadnych zmian hm...
+// store.dispatch(getCountries('pierwsza-zmiana')); // wywołanie dispatch nie wprowadza zadnych zmian hm...
 
 export default store;
