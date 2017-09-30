@@ -6,7 +6,7 @@ import store from './store/store';
 import routes from './routes';
 
 
-// import './index.css';
+import './country.css';
 // import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
