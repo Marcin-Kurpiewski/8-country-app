@@ -4,10 +4,8 @@ import { Router, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import store from './store/store';
 import routes from './routes';
+import './country.css';
 
-
-// import './index.css';
-// import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 
