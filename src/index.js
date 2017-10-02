@@ -7,7 +7,7 @@ import routes from './routes';
 
 
 import './country.css';
-// import App from './App';
+
 import registerServiceWorker from './registerServiceWorker';
 
 

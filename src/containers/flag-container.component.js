@@ -7,6 +7,7 @@ import { getCountries, searchCountries, deleteCountry } from '../actions/actions
 class CountryFlagContainer extends Component {
     constructor(props) {
         super(props);
+        this.deleteCountry=this.deleteCountry.bind(this);
     }
 
     componentDidMount() {
